@@ -1,4 +1,30 @@
 /* Header */
+.div-header {
+    display: flex;  
+}
+
+.div-header .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navigation-menu {
+    display: flex;
+    gap: 40px;      
+    padding: 24px 0;    
+}
+
+.navigation-header {
+    display: flex;
+    align-items: center;
+} 
+
+.address-unordered-list {
+    display: flex;
+    gap: 40px;
+}
+
 .header-address {
     font-style: normal;
 }
@@ -40,6 +66,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5; 
+    margin-right: 76px;
 }
 
 .navigation-bar-span {
@@ -177,4 +204,12 @@ body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+}
+
+img {
+    display: block;
+}
+
+header {
+    border-bottom: 1px solid #e7e9fc;
 }

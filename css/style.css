@@ -10,17 +10,19 @@
 
 .div-header {
     display: flex;  
+    gap: 40px;
 }
 
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 20px 15px;
 }
 
 .nav-menu {
     display: flex;
-    gap: 40px;      
+    gap: 40px; 
+    list-style-type: none;     
 }
 
 .navigation-header {
@@ -31,6 +33,8 @@
 .address-unordered-list {
     display: flex;
     gap: 40px;
+    list-style-type: none;
+    margin-left: 250px;
 }
 
 .header-address {
@@ -41,6 +45,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
 .header-address-links:hover {
@@ -60,6 +65,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
 }
 
 .navigation-link:focus {
@@ -79,6 +85,7 @@
     text-transform: uppercase;
     color: #4d5ae5; 
     margin-right: 76px;
+    text-decoration: none;
 }
 
 .navigation-bar-span {
@@ -98,6 +105,7 @@
     letter-spacing: 0.04em;
     border-radius: 4px;    
     cursor: pointer;
+    margin: 48px auto;
 }
 
 .section-order-button:hover {
@@ -120,6 +128,7 @@
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin: 48px auto;
 }
 
 /* Second Section */
@@ -130,6 +139,7 @@
 .second-section-ul {
     display: flex;
     gap: 24px;
+    list-style-type: none;
 }
 
 .second-section-li {
@@ -286,7 +296,7 @@
 }
 
 .page-footer-paragraph {
-    max-width: 264px;
+    max-width: 264px    ;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;

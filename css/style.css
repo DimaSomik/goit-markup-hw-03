@@ -7,7 +7,7 @@
     display: flex;  
 }
 
-.div-header .container {
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -16,7 +16,6 @@
 .navigation-menu {
     display: flex;
     gap: 40px;      
-    padding: 24px 0;    
 }
 
 .navigation-menu .li {
@@ -56,6 +55,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;   
 }
 
 .navigation-link:focus {

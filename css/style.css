@@ -266,9 +266,12 @@
 /* Footer */
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0px;
 }
 
 .page-footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -283,6 +286,7 @@
 }
 
 .page-footer-paragraph {
+    max-width: 264px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;

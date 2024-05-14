@@ -1,4 +1,8 @@
 /* Header */
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .div-header {
     display: flex;  
 }
@@ -13,6 +17,10 @@
     display: flex;
     gap: 40px;      
     padding: 24px 0;    
+}
+
+.navigation-menu .li {
+    margin-right: 0;
 }
 
 .navigation-header {
@@ -208,8 +216,4 @@ body {
 
 img {
     display: block;
-}
-
-header {
-    border-bottom: 1px solid #e7e9fc;
 }
